@@ -278,7 +278,8 @@ private:
     void update( Mat &w );
 
     // For a W by H gradient magnitude map, find a W-7 by H-7 CV_32F matching score map
-    Mat matchTemplate( const Mat &mag1u );
+    //Mat matchTemplate( const Mat &mag1u );
+	void matchTemplate(const Mat &mag1u, Mat &matchCost1f);
 
     float dot( int64_t tig1, int64_t tig2, int64_t tig4, int64_t tig8 );
     void reconstruct( Mat &w );// For illustration purpose
