@@ -39,9 +39,9 @@
  //
  //M*/
 
-//#include "BING/saliencyClasses.h"
-#include "saliencyClasses.h"
+#include "precomp.hpp"
 #include "CmShow.hpp"
+
 
 namespace cv
 {
